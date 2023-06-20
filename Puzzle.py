@@ -5,11 +5,13 @@ def solve_puzzle(Board, Source, Destination):
     """
     Finds and returns the path that covers the minimum number of cells of a
     puzzle traveling from the source to the destination cell.
+    
     :param Board: Puzzle board as a list of lists. Each list represents a row
             in the puzzle. Each element is either â€˜-â€™ for an empty cell
             (passable) or â€˜#â€™ for an obstacle (impassable)
     :param Source: Tuple representing the indices of the starting position
     :param Destination: Tuple representing the indices of the goal position
+    
     :return: List of tuples representing the indices of each position in the
             solution path, plus a string representing the directions taken
     """
